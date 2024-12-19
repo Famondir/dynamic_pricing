@@ -165,4 +165,4 @@ def handle_game_decision(data):
     show_next_modal(game, users, room, decison=None)
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True)
+    socketio.run(app)
